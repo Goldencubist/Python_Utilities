@@ -5,7 +5,7 @@ def readme() -> str:
         return f.read()
 
 setup(
-    name = "Python_Utilities",
+    name = "Python_Basic_Utilities",
     version = "0.1.0",
     packages = find_packages(where = "src"),
     package_dir = {"": "src"},
